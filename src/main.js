@@ -1,11 +1,10 @@
-import AppExpress from "@itznotabug/appexpress"
-const app = new AppExpress()
-
+import AppExpress from "@itznotabug/appexpress";
+const app = new AppExpress();
 
 const getRoutes = (request, response) => {
-  response.json('routes': ['/', '/user/:username', '/user'])
-}
+    response.json({ routes: ["/", "/user/:username", "/user"] });
+};
 
-app.get('/', getRoutes)
+app.get("/", getRoutes);
 
-export default async (context) => await app.attach(context) 
+export default async (context) => await app.attach(context);
