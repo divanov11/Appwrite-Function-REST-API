@@ -8,6 +8,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@itznotabug/appexpress": "^0.2.0",
     "node-appwrite": "^9.0.0"
   },
   "devDependencies": {
