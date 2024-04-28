@@ -16,6 +16,7 @@ const createUser = (request, response) => {
 
 app.get("/", getRoutes);
 app.get("/user/:username", getUser);
+app.post("/user", createUser);
 
 export default async (context) => await app.attach(context);
 
