@@ -1,5 +1,5 @@
 import AppExpress from "@itznotabug/appexpress";
-const router = new AppExpress.router();
+const router = new AppExpress.Router();
 
 const getUser = (request, response) => {
     const { username } = request.params;
